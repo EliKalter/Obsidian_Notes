@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alg Struct/Group Theory/פרקים בקורס.md",
+                "file": "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "פרקים בקורס"
+              "title": "חבורות P"
             }
           }
         ]
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Alg Struct/Group Theory/פרקים בקורס.md",
+                "file": "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for פרקים בקורס"
+              "title": "Backlinks for חבורות P"
             }
           },
           {
@@ -131,12 +131,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Alg Struct/Group Theory/פרקים בקורס.md",
+                "file": "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from פרקים בקורס"
+              "title": "Outgoing links from חבורות P"
             }
           },
           {
@@ -174,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Alg Struct/Group Theory/פרקים בקורס.md",
+                "file": "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of פרקים בקורס"
+              "title": "Outline of חבורות P"
             }
           }
         ]
@@ -203,19 +203,23 @@
   },
   "active": "0837968944188666",
   "lastOpenFiles": [
+    "הוכחה של 5.4.md",
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P.md",
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P ומשפטי סילו.md",
+    "תרגיל 5.5.md",
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו",
+    "Alg Struct/Group Theory/פרקים בקורס.md",
     "Alg Struct/פעולה של חבורה על קבוצה.md",
     "Alg Struct/סדרות נורמליות וסדרות הרכב.md",
     "Alg Struct/מושגים בסיסיים.md",
     "Alg Struct/חופשיות, יוצרים ויחסים.md",
     "Alg Struct/חבורות תמורות.md",
-    "Alg Struct/חבורות P ומשפטי סילו.md",
     "Alg Struct/הומומורפיזמים וחבורות מנה.md",
     "Alg Struct/דוגמאות לחבורות.md",
     "Alg Struct/אבליות נוצרות סופית.md",
     "אבליות נוצרות סופית.md",
     "הומומורפיזמים וחבורות מנה.md",
     "דוגמאות לחבורות.md",
-    "Alg Struct/Group Theory/פרקים בקורס.md",
     "חופשיות, יוצרים ויחסים.md",
     "סדרות נורמליות וסדרות הרכב.md",
     "חבורות P ומשפטי סילו.md",
