@@ -1,36 +1,34 @@
 {
   "main": {
-    "id": "a94044d00e6e72b7",
+    "id": "1bc0f7cb3e3ff6a0",
     "type": "split",
     "children": [
       {
-        "id": "a98917b7ba05ebad",
+        "id": "4bce8baaed28a1cc",
         "type": "tabs",
-        "dimension": 68.5378590078329,
         "children": [
           {
-            "id": "0837968944188666",
+            "id": "5d3f9a5edb01a3c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "משפטי סילו.md",
+                "file": "MSDG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "משפטי סילו"
+              "title": "MSDG"
             }
           }
         ]
       },
       {
-        "id": "4f6f7977bef402dc",
+        "id": "ff9a1fa978500c90",
         "type": "tabs",
-        "dimension": 31.462140992167104,
         "children": [
           {
-            "id": "ff36d36f8581beb9",
+            "id": "fb55a3e42df2160b",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -45,15 +43,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1eee82671619c883",
+    "id": "865b5c2915ee3c0c",
     "type": "split",
     "children": [
       {
-        "id": "87a91262a0c8af91",
+        "id": "700615066e20c7fa",
         "type": "tabs",
         "children": [
           {
-            "id": "7225df76325f5c83",
+            "id": "62c5d3ac0bf69c5d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -66,7 +64,7 @@
             }
           },
           {
-            "id": "1c5a8e577f436956",
+            "id": "b49cd2519a17a6f3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +81,7 @@
             }
           },
           {
-            "id": "8bfc7a9301859a2a",
+            "id": "a61459cae9db4c29",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -99,20 +97,20 @@
     "width": 300
   },
   "right": {
-    "id": "e3b38444926bb510",
+    "id": "36fec76818542f81",
     "type": "split",
     "children": [
       {
-        "id": "7858870e2fffb200",
+        "id": "95c0699fe827bf83",
         "type": "tabs",
         "children": [
           {
-            "id": "b4b6d231290db024",
+            "id": "6a1547acac408bdc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "משפטי סילו.md",
+                "file": "MSDG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,25 +120,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for משפטי סילו"
+              "title": "Backlinks for MSDG"
             }
           },
           {
-            "id": "4d0c33751170a92b",
+            "id": "c41217854b1e4c23",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "משפטי סילו.md",
+                "file": "MSDG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from משפטי סילו"
+              "title": "Outgoing links from MSDG"
             }
           },
           {
-            "id": "771cd4a9ec581868",
+            "id": "9a2b49912e7822e5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -155,7 +153,7 @@
             }
           },
           {
-            "id": "59afb218320f2e27",
+            "id": "39ecedbb474dbf31",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -169,18 +167,18 @@
             }
           },
           {
-            "id": "a10c5612a1c4eb68",
+            "id": "c4dfe199562b7bb7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "משפטי סילו.md",
+                "file": "MSDG.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of משפטי סילו"
+              "title": "Outline of MSDG"
             }
           }
         ]
@@ -201,36 +199,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "0837968944188666",
+  "active": "5d3f9a5edb01a3c1",
   "lastOpenFiles": [
-    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P ומשפטי סילו.md",
-    "משפטי סילו.md",
-    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P.md",
-    "Alg Struct/Group Theory/פרקים בקורס.md",
-    "הוכחה של 5.4.md",
-    "תרגיל 5.5.md",
-    "Alg Struct/Group Theory/חבורות P ומשפטי סילו",
-    "Alg Struct/פעולה של חבורה על קבוצה.md",
-    "Alg Struct/סדרות נורמליות וסדרות הרכב.md",
-    "Alg Struct/מושגים בסיסיים.md",
-    "Alg Struct/חופשיות, יוצרים ויחסים.md",
-    "Alg Struct/חבורות תמורות.md",
-    "Alg Struct/הומומורפיזמים וחבורות מנה.md",
-    "Alg Struct/דוגמאות לחבורות.md",
-    "Alg Struct/אבליות נוצרות סופית.md",
-    "אבליות נוצרות סופית.md",
-    "הומומורפיזמים וחבורות מנה.md",
-    "דוגמאות לחבורות.md",
-    "חופשיות, יוצרים ויחסים.md",
-    "סדרות נורמליות וסדרות הרכב.md",
-    "חבורות P ומשפטי סילו.md",
-    "חבורות תמורות.md",
-    "פעולה של חבורה על קבוצה.md",
-    "מושגים בסיסיים.md",
-    "Untitled.md",
-    "Alg Struct/Group Theory",
-    "Alg Struct",
-    "Welcome.md",
-    "create a link.md"
+    "כלים.md",
+    "חמצון מסורתי קטן לבוש.md",
+    "MSDG.md",
+    "תהליכים.md",
+    "ראשית.md",
+    "מבוא.md",
+    "Welcome.md"
   ]
 }
