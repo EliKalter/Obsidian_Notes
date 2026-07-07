@@ -112,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Alg Struct/Group Theory/פרקים בקורס.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for פרקים בקורס"
             }
           },
           {
@@ -130,11 +131,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Alg Struct/Group Theory/פרקים בקורס.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from פרקים בקורס"
             }
           },
           {
@@ -172,12 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Alg Struct/Group Theory/פרקים בקורס.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of פרקים בקורס"
             }
           }
         ]
@@ -198,18 +201,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "ff36d36f8581beb9",
+  "active": "0837968944188666",
   "lastOpenFiles": [
+    "Alg Struct/פעולה של חבורה על קבוצה.md",
+    "Alg Struct/סדרות נורמליות וסדרות הרכב.md",
+    "Alg Struct/מושגים בסיסיים.md",
+    "Alg Struct/חופשיות, יוצרים ויחסים.md",
+    "Alg Struct/חבורות תמורות.md",
+    "Alg Struct/חבורות P ומשפטי סילו.md",
+    "Alg Struct/הומומורפיזמים וחבורות מנה.md",
+    "Alg Struct/דוגמאות לחבורות.md",
+    "Alg Struct/אבליות נוצרות סופית.md",
+    "אבליות נוצרות סופית.md",
+    "הומומורפיזמים וחבורות מנה.md",
+    "דוגמאות לחבורות.md",
     "Alg Struct/Group Theory/פרקים בקורס.md",
     "חופשיות, יוצרים ויחסים.md",
-    "אבליות נוצרות סופית.md",
     "סדרות נורמליות וסדרות הרכב.md",
     "חבורות P ומשפטי סילו.md",
     "חבורות תמורות.md",
-    "הומומורפיזמים וחבורות מנה.md",
     "פעולה של חבורה על קבוצה.md",
     "מושגים בסיסיים.md",
-    "דוגמאות לחבורות.md",
     "Untitled.md",
     "Alg Struct/Group Theory",
     "Alg Struct",
