@@ -4,17 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "a98917b7ba05ebad",
+        "id": "4f6f7977bef402dc",
         "type": "tabs",
-        "dimension": 68.5378590078329,
         "children": [
           {
-            "id": "0837968944188666",
+            "id": "ff36d36f8581beb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "משפטי סילו.md",
+                "file": "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 1 גורר את משפט קושי.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "משפט סילו 1 גורר את משפט קושי"
+            }
+          },
+          {
+            "id": "14265fa9c0781a01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפטי סילו.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,24 +35,8 @@
               "title": "משפטי סילו"
             }
           }
-        ]
-      },
-      {
-        "id": "4f6f7977bef402dc",
-        "type": "tabs",
-        "dimension": 31.462140992167104,
-        "children": [
-          {
-            "id": "ff36d36f8581beb9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 227.500732421875
   },
   "right": {
     "id": "e3b38444926bb510",
@@ -201,11 +198,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "0837968944188666",
+  "active": "14265fa9c0781a01",
   "lastOpenFiles": [
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 2.md",
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 1.md",
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 1 גורר את משפט קושי.md",
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפטי סילו.md",
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P.md",
+    "לחחחחח.md",
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 3.md",
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו",
+    "Untitled.base",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P ומשפטי סילו.md",
     "משפטי סילו.md",
-    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P.md",
     "Alg Struct/Group Theory/פרקים בקורס.md",
     "הוכחה של 5.4.md",
     "תרגיל 5.5.md",
@@ -224,13 +229,7 @@
     "חופשיות, יוצרים ויחסים.md",
     "סדרות נורמליות וסדרות הרכב.md",
     "חבורות P ומשפטי סילו.md",
-    "חבורות תמורות.md",
-    "פעולה של חבורה על קבוצה.md",
-    "מושגים בסיסיים.md",
-    "Untitled.md",
     "Alg Struct/Group Theory",
-    "Alg Struct",
-    "Welcome.md",
-    "create a link.md"
+    "Alg Struct"
   ]
 }

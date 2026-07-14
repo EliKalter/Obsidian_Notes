@@ -164,7 +164,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,7 +178,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "d86279585837398f",
+  "active": "00fa826c9c6ef1f3",
   "lastOpenFiles": [
     "Untitled.base",
     "Math/Untitled.base",
