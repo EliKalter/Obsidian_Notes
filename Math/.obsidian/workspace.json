@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפטי סילו.md",
+                "file": "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות pq.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "משפטי סילו"
+              "title": "חבורות pq"
             }
           }
         ],
@@ -200,12 +200,14 @@
   },
   "active": "14265fa9c0781a01",
   "lastOpenFiles": [
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 3.md",
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות pq.md",
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P ומשפטי סילו.md",
+    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפטי סילו.md",
     "Alg Struct/Group Theory/פרקים בקורס.md",
     "Alg Struct/מושגים בסיסיים.md",
-    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפטי סילו.md",
     "Alg Struct/פעולה של חבורה על קבוצה.md",
     "^.md",
-    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 3.md",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 2.md",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 1.md",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 1 גורר את משפט קושי.md",
@@ -213,7 +215,6 @@
     "לחחחחח.md",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו",
     "Untitled.base",
-    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P ומשפטי סילו.md",
     "משפטי סילו.md",
     "הוכחה של 5.4.md",
     "תרגיל 5.5.md",
@@ -228,7 +229,6 @@
     "הומומורפיזמים וחבורות מנה.md",
     "דוגמאות לחבורות.md",
     "חופשיות, יוצרים ויחסים.md",
-    "סדרות נורמליות וסדרות הרכב.md",
     "Alg Struct/Group Theory",
     "Alg Struct"
   ]
