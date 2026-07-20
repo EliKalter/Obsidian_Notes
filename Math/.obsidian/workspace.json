@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4f6f7977bef402dc",
+        "id": "f6e2891bc345e287",
         "type": "tabs",
         "children": [
           {
-            "id": "14265fa9c0781a01",
+            "id": "ec2009904490a231",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/סדרות הרכב.md",
+                "file": "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/חבורות פתירות.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "סדרות הרכב"
+              "title": "חבורות פתירות"
             }
           }
         ]
@@ -183,12 +183,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "14265fa9c0781a01",
+  "active": "ec2009904490a231",
   "lastOpenFiles": [
     "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/משפט ז'ורדן הולדר.md",
+    "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/חבורות פתירות.md",
     "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/סדרות נורמליות וסדרות הרכב.md",
     "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/סדרות הרכב.md",
     "Alg Struct/Group Theory/הומומורפיזמים וחבורות מנה/חבורות פשוטות.md",
+    "^.md",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 1 גורר את משפט קושי.md",
     "Alg Struct/Group Theory/הומומורפיזמים וחבורות מנה/הומומורפיזמים וחבורות מנה.md",
     "Alg Struct/Group Theory/פרקים בקורס.md",
@@ -202,7 +204,6 @@
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפטי סילו.md",
     "Alg Struct/מושגים בסיסיים.md",
     "Alg Struct/פעולה של חבורה על קבוצה.md",
-    "^.md",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 2.md",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 1.md",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/חבורות P.md",
@@ -215,7 +216,6 @@
     "Alg Struct/חבורות תמורות.md",
     "Alg Struct/דוגמאות לחבורות.md",
     "Alg Struct/אבליות נוצרות סופית.md",
-    "אבליות נוצרות סופית.md",
     "Alg Struct/Group Theory",
     "Alg Struct"
   ]
