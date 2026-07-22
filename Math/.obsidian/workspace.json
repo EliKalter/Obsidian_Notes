@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/חבורות פתירות.md",
+                "file": "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/חבורות נילפוטנטיות וסדרות מרכזיות.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "חבורות פתירות"
+              "title": "חבורות נילפוטנטיות וסדרות מרכזיות"
             }
           }
         ]
@@ -186,11 +186,12 @@
   "active": "ec2009904490a231",
   "lastOpenFiles": [
     "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/סדרות נורמליות וסדרות הרכב.md",
+    "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/חבורות נילפוטנטיות וסדרות מרכזיות.md",
     "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/חבורות פתירות.md",
-    "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/משפט ז'ורדן הולדר.md",
     "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/סדרות הרכב.md",
-    "Alg Struct/Group Theory/הומומורפיזמים וחבורות מנה/חבורות פשוטות.md",
+    "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/משפט ז'ורדן הולדר.md",
     "^.md",
+    "Alg Struct/Group Theory/הומומורפיזמים וחבורות מנה/חבורות פשוטות.md",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 1 גורר את משפט קושי.md",
     "Alg Struct/Group Theory/הומומורפיזמים וחבורות מנה/הומומורפיזמים וחבורות מנה.md",
     "Alg Struct/Group Theory/פרקים בקורס.md",
@@ -215,7 +216,6 @@
     "Alg Struct/חופשיות, יוצרים ויחסים.md",
     "Alg Struct/חבורות תמורות.md",
     "Alg Struct/דוגמאות לחבורות.md",
-    "Alg Struct/אבליות נוצרות סופית.md",
     "Alg Struct/Group Theory",
     "Alg Struct"
   ]
