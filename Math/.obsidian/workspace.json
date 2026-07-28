@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Infi/Infi 3/Integration/Integration over boxes.md",
+                "file": "Infi/Infi 3/Integration/Integration over sets of finite volume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Integration over boxes"
+              "title": "Integration over sets of finite volume"
             }
           }
         ]
@@ -185,9 +185,11 @@
   },
   "active": "56cee65a0aca454f",
   "lastOpenFiles": [
-    "^a2e56b.md",
     "Infi/Infi 3/Integration/Integration over boxes.md",
+    "Infi/Infi 3/Integration/Integration over sets of finite volume.md",
     "Infi/Infi 3/Integration/Integration.md",
+    "^.md",
+    "^a2e56b.md",
     "Alg Struct/Group Theory/המבנה של אבליות נוצרות סופית/חבורות אבליות נוצרות סופית.md",
     "Infi/Infi 3/Integration",
     "Infi/Infi 3",
@@ -202,7 +204,6 @@
     "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/סדרות נורמליות וסדרות הרכב.md",
     "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/סדרות הרכב.md",
     "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/משפט ז'ורדן הולדר.md",
-    "^.md",
     "Alg Struct/Group Theory/הומומורפיזמים וחבורות מנה/חבורות פשוטות.md",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 1 גורר את משפט קושי.md",
     "Alg Struct/Group Theory/הומומורפיזמים וחבורות מנה/הומומורפיזמים וחבורות מנה.md",
@@ -217,7 +218,6 @@
     "Alg Struct/Group Theory/מושגים בסיסיים.md",
     "Alg Struct/Group Theory/פעולה של חבורה על קבוצה.md",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 2.md",
-    "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו/משפט סילו 1.md",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו/משפטי סילו",
     "Alg Struct/Group Theory/חבורות P ומשפטי סילו",
     "Alg Struct/Group Theory"

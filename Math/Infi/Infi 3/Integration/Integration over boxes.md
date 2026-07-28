@@ -6,6 +6,8 @@
 >Def (The volume of a closed box):
 >	Let $A = \bigtimes_{i=1}^{k} [a_i,b_i]$ be a box in $\mathbb{R}^k$. Then we define the volume of $A$ to be $V(A) := \prod\limits_{i = 1}^{k} (b_i - a_i)$.
 
+^1ae6d6
+
 >Def (A partition of a box):
 >	Let $A = \bigtimes_{i=1}^{k} [a_i,b_i]$ be a box in $\mathbb{R}^k$. And assume for every $j \in [k]$ there is a partition (Partition in the infi 2 def [[]]) of the segment $[a_j, b_j]$ $P_j = \left\{ t_j^i \right\}_{i=0}^{m_j}$ s.t. $t_j^0 = a_j$, $t_j^{m_j} = b_j$ and $t_j^{i-1} < t_j^i$ for all $i \in [m_j]$. (The "size" of the partition $P_j$ is $m_j$)
 >	We will define "a partition of $A$ induced by the $P_j$-'s" to be $P:=\bigtimes\limits_{i=1}^{k} P_i$.
@@ -99,10 +101,12 @@ Note: Those are well defined becaue $L\left(f,P\right) \leq U\left(f, K\right)$ 
 >	
 >	>(2): $cf$ is integrable and
 >	>	$\int_A cf(x)dx = c\int_A f(x)dx$
->	
+
 >	>(3): The constant func $1$ is integrable, and
 >	>	$\int_A 1(x)dx = V\left(A\right)$
->	
+
+^b86a28
+
 >	>(4): If $f \geq 0$ then $\int_A f(x)dx \geq 0$
 
 >Corollary (3.8):
@@ -154,6 +158,8 @@ We will now consider under what conditions a function is integrable.
 >Exercise (3.1):
 >	Show that the boundry of a box is of measure zero.
 
+^2e6e3c
+
 >Sol:
 >	There are $k^2$ sides.
 >	A side looks like $\bigtimes\limits_{j = 1}^{i - 1} [a_j,b_j] \times \underset{\text{Or } b_i}{\left\{a_i\right\}} \times \bigtimes\limits_{j = i + 1}^{k} [a_j,b_j]$.
@@ -179,10 +185,37 @@ We will now consider under what conditions a function is integrable.
 >	>(2): If we take $n \geq log_2(\frac{b}{2\cdot [a]^b})$ (Where $[a]^b$ is the remainder of $\frac{a}{b}$ in $a = nb + r$ i.e. $[a]^b = r$.) then $2^n \geq \frac{b}{2\cdot [a]^b}$ and so $\frac{\frac{b}{2^n}}{[a]^b} \leq 2$. And we can have the witdth by puting $2^n$ such bricks (of size $\frac{b}{2^n}$). And the a wall by puting such b lengths until we can't anymore, and then the sliver that is left can be covered with boxes of size $\frac{b}{2^n} \times [a]^b$ and we chose n to have this be of the right ratio.
 >	>We did assume that a can't be divided into b, other wise it is trivial becaseu sqaure boxes with side b will do the job.
 >	>This solves the 2 D case. For the more general case, we need to think more.
+>	>We might need to go about it by deviding the box into 2 sub-boxes along the longest edge, and notice that the one that was the smallest never gets devided, and that eventually all the resulted length are small enough, because you can only cut in half an edge so many times before it is small enough.
 >	
 >	>(3): We will increase the length of every edge of B to be as the longest edge. So we got a cube. And the size can be easily calculated to match the requirement.
 
 >Corollary (3.16):
 >	If A is a set of measure zero, than A can be covered with cubes, which size is still less than epsilon.
 >Proof:
->	
+>	df
+
+>Theorem (3.17) (Lebesgue-Vitali):
+>	f is integrable over A iff the set of discontinuity (of f in A or the func was on A to begin with) is of measure zero.
+>The proof will come later.
+
+^f3e2f8
+
+>Lemma: A continuous func is bounded over bounded close sets.
+>Proof:
+>	Remember we are in a norm space. So the bounded close set is compact. So this is direct from the max val theorem.
+^d1fdf8
+
+>Corollary (3.18):
+>	f_1,...f_m are int over A. And phi is continuous from R^m to R then phi of (f_1, ... , f_m) is also integral
+>Proof:
+>	Since phi is continuous, it is bounded over bounded close sets ([[#^d1fdf8|See the lemma]]). And since each of the f_i's is integral, it is bounded, so the entire image of all of the together is in some ball around the origin, of radious M (in the inf norm). Over that closed box, phi is bounded, so it is also bounded over the image of the f_i's. So phi(f_1...f_m) is bounded.
+>	And the discon points of phi(f_1,...f_m) is contained in the union of the dicon sets of the f_i's. So it is also of measure zero (Because in any point where all are cont, the composition of a cont on a cont is cont). So from [[#^f3e2f8|Lebesgue-Vitali]] we obtain that it is int.
+
+>Theorem (3.19) (The topological def of compactness):
+>	A is compact (sequentially) iff any cover has a finite sub cover
+>Proof: In topology course.
+
+>Proposition (3.20):
+>	A compact set of measure zero can be covered with a finite num of open boxes (and have their volume smaller than epsilon).
+>Proof:
+>	Take a cover with boxes that is garenteed from the measure zero that matches half epsilon. For each box, take a box that is slightly larger, such that the new volume will still be less than (or equal to) twice as the original box, and such that the interior of the new box will contain the old box. Now the vol of the new boxes is small enough, and obviously covers the set. Now from the last theorem, it has a finite sub cover, and that is a cover with less vol than the original one, so for sure less than epsilon, and it is finite of open boxes.
