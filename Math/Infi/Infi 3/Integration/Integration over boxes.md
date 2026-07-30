@@ -18,7 +18,7 @@
 Note: In such partition, there are exactly $\prod\limits_{j=1}^{k} m_j$ such boxes.
 
 >Lemma:
->	The volume of a box is equal to the sum of the volumes of the sub-boxes.
+>	The volume of a box is equal to the sum of the volumes of the sub-boxes. j. In particu j. In particu
 >	Let $A = \bigtimes_{i=1}^{k} [a_i,b_i]$ be a box in $\mathbb{R}^k$, And $P=\bigtimes\limits_{i=1}^{k} P_i$ a partition of $A$ induced by the partitions $P_j = \left\{ t_j^i \right\}_{i=0}^{m_j}$.  Then $$V(A) = \sum\limits_{I \in \bigtimes\limits_{i=1}^{k} [m_i]} V(C_I)$$
 >Proof:
 >	It is highly intuitive and I'll skip the proof for now. The proof can be in induction on the dimension. Did in the ipad.
@@ -219,3 +219,5 @@ We will now consider under what conditions a function is integrable.
 >	A compact set of measure zero can be covered with a finite num of open boxes (and have their volume smaller than epsilon).
 >Proof:
 >	Take a cover with boxes that is garenteed from the measure zero that matches half epsilon. For each box, take a box that is slightly larger, such that the new volume will still be less than (or equal to) twice as the original box, and such that the interior of the new box will contain the old box. Now the vol of the new boxes is small enough, and obviously covers the set. Now from the last theorem, it has a finite sub cover, and that is a cover with less vol than the original one, so for sure less than epsilon, and it is finite of open boxes.
+
+^063141
