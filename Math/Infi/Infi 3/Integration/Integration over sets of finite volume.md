@@ -121,4 +121,32 @@ We will now use [[#^1bf9ea]] to show the well-definedness of [[#^c87fa4|the volu
 >	Assume empty intersection. Then
 >	It is clear that the boundry of the union is a sub set of the union of the boundries. (I've shown in detail in the tablet). So containded in the union of measure zero which is also measure zero.
 >	And the eqaulity is obvious as the indicator of the union can be written as the sum of the indicators.
->	In case the intesection is not empty. We need to show that the vol of the intersection is defined, then we write X = C minus D, Y = C cup D, and Z = D minus C, and everything else follows. This is not that easy... To complete.
+>	In case the intesection is not empty. We need to show that the vol of the intersection is defined, then we write X = C minus D, Y = C cup D, and Z = D minus C. And the intersection has volume because the boundry of the intersection is contained in the union of the boundries, because the interior is the closure of the union of the complitions, which is the union of the closures of the completions, which can be split into two parts one where we look at the closure of the intersection minus the interior of one, and the other is the same but with the interior of the other. and that is a union of two parts, each is contained in the matching boundry, because the closure of the intersection is contained in the boundry of the closure of each.
+
+>Lemma (3.26):
+>	A graph of a cont func over a compact set is of measure zero.
+
+^0d966e
+
+>Example: if f <= g, and S in R^k is compact, then the set $$\left\{ (x_1,\dots,x_{k+1}) \in \mathbb{R}^k \mid \left(x_1,\dots,x_k\right) \in S \wedge x_{k+1} \in \left( f(\begin{pmatrix} x_1 \\ x_2 \\ \vdots \\ x_k \end{pmatrix}), g(\begin{pmatrix} x_1 \\ x_2 \\ \vdots \\ x_k \end{pmatrix})\right)\right\}$$
+>is of measure zero, because its boundry is contained in the union of $S \times \mathbb{R}$ with the graph of f and the graph of g
+
+^724338
+
+>Anothe example: Euclidean balls in R^k are of measure zero.
+>Proof:
+>	Let  S = $[-1,1]^{k-1} \subset \mathbb{R}^{k-1}$.
+>	$f,g:S\to\mathbb{R}$
+>	$\left(x_1,\dots,x_{k-1}\right) \overset{f}{\mapsto} \sqrt{1-\sum_{i=1}^{k-1} x_i^2}$
+>	$\left(x_1,\dots,x_{k-1}\right) \overset{g}{\mapsto} -\sqrt{1-\sum_{i=1}^{k-1} x_i^2}$
+>	And now the ball $B_1(0_{\mathbb{R}^k})$ is the set you get from the process of the last example of $S,f,g$
+
+>Example (to show that the requirement f,g cont is necesary):
+>	If S = [0,1]. f $\equiv 0$ and $g = 1 + D$ where D is the dirichlet func. then  the set from [[#^724338]] (Draw it) has as interior $(0,1)^2$ and closure $[0,1] \times [0,2]$ and so the boundry is $[0,1] \times [1,2] \cup \left\{0\right\} \times [0,1] \cup \left\{1\right\} \times [0,1] \cup [0,1] \times \left\{0\right\}$ and imprtantly $[0,1] \times [1,2]$ is contained in the boundry, so the boundry is not of measure zero.
+>	And here we can also intuitivaly see how it does not make sense to give this thing a volume, because do you go about the interior, or the exterior?
+
+>Corollary (3.27):
+>	[[#^0d966e|The last lemma]] holds when $S$ can be written as a countable union of compact sets
+>Proof:
+>	Write $S = \bigcup\limits_{i=1}^\infty S_i$ for compact S_i's. Then the graph of f over S is the union of the graphs of the $f\big\vert_{S_i}$ over S_i. And a countable union  of measure zero is of measure zero
+
