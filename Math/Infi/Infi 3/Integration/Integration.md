@@ -1,3 +1,3 @@
 [[Integration over boxes]]
-[[Integration over sets of finite volume]]
-[[Integration on sets of voume]]
+[[Integration over general sets of finite volume]]
+

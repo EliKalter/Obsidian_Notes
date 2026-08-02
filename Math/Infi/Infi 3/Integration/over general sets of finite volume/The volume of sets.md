@@ -101,6 +101,8 @@ We will now use [[#^1bf9ea]] to show the well-definedness of [[#^c87fa4|the volu
 >	To show that they are eqaul, take D a box that contains both A and B. And show that the integral over A of the indicator of S equals the integral of the same func over D, that is true because D can be split up into boxes where one of them is A, and the other ones does not contain any of S except for maybe in the boundry, but  everywhere else, the indicator of S is 0 on them, And by the aditive property of the integral over the boxes, we get that the integral over D is the sum of the integrals of the sub-boxes, where the first one is the integral over the A box, and the other ones are 0 by the last lemma. So over all we have the integral over A.
 >	And by the generality we will get that the integral over D is the same as the over B, so over A and over B both equal to the one over D.
 
+^e20776
+
 >Comments:
 >	>(1): [[#^b0435e]]. Thus (I'm not sure why is it "thus" and why it comes here, it looks to me like a conclusion that has nothing to do with [[#^b0435e]]), S has volume iff S is bounded and has a boundry of measure zero.
 >	>	Bounded iff can be boxed. And the indicator is integrable over that box iff boundry of measure zero [[#^1faab2|as we've seen here]].

@@ -127,6 +127,8 @@ Note: Those are well defined becaue $L\left(f,P\right) \leq U\left(f, K\right)$ 
 >	And for the other side, we can find P partition of A cup B with small omega, and the omega on A is smaller than the omega on A cup B (Because the omega on B is non negtive). And hence we can find partitions of A with small omega as we want so f is integral on A.
 >	For finite union, we notice that we can always build it from smaller boxes. meaning, the union is made up of two unions, both are boxes. and by induction.
 
+^5ddb9a
+
 We will now consider under what conditions a function is integrable.
 
 >Proposition (3.11):
