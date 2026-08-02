@@ -109,12 +109,14 @@ We will now use [[#^1bf9ea]] to show the well-definedness of [[#^c87fa4|the volu
 >	
 >	>(2): If S itself is a compact set of measure zero, than it has volume, and its volume is 0.
 >	>	For one, clearly the boundry of S is of measure zero as it is contained in S. Second, look at [[#^ad52ba]] and let J = S and f the indicator of S. Clearly the indicator of J is zero out of J.
->	
->	>(3): If S is a set of volume, then its closure is a compact set of volume. and its interior is an open set, also of measure.
+
+>	>(3): If S is a set of volume, then its closure is a compact set of volume. and its interior is an open set, also of volume.
 >	>	Because if S can be bounded then both its closure and interior are bounded by the same bound.
 >	>	And $$\partial (\overline{S}) = \overline{\left (\overline{S} \right)} \setminus \left (\overline{S} \right)^{\circ} = \overline{S} \setminus \left (\overline{S} \right)^{\circ} \overset{\overline{S} \supseteq S \implies \left(\overline{S}\right)^{\circ} \supseteq S^{\circ}}{\subseteq} \overline{S} \setminus S^{\circ} = \partial S$$
 >	>	And $$\partial (S^{\circ}) = \overline{\left (S ^{\circ}\right)} \setminus \left (S^{\circ} \right)^{\circ} = \overline{\left (S^{\circ} \right)} \setminus S^{\circ} \overset{S^{\circ} \subseteq S \implies \overline{\left (S^{\circ} \right)} \subseteq \overline{S}}{\subseteq} \overline{S} \setminus S^{\circ} = \partial S$$
 >	>	So if S has volume then its boundry is of measure zero and therefor also the boundry of its closure and its interior
+
+^8f9ec4
 
 >Lemma (3.25) (Inclusion exclusion principle):
 >	If C, D are sets in R^k, that have volume. Then the union of c, d and the intesection, both also have volume, and V(C cup D) = V(C) + V(D) - V(C cap D)

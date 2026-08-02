@@ -21,3 +21,13 @@ Similar to [[Integration over boxes#^5ddb9a]]
 >	Now, if f is integral on both A and B, then clearly $\overset{A}{f}$,$\overset{B}{f}$ are (Its the same func...). Also f is bounded over $A \cap B$ because it is bounded in general. And we get that it is integrable over $A \cap B$ with integral 0. Thus from (mark the line above that says $\overset{A \cup B}{f} = \overset{A}{f} + \overset{B}{f} - \overset{A \cap B}{f}$) we get that $\overset{A \cup B}{f}$ is integrable over D as a sum of integrable, and the appropriate equality.
 >	Conversely, if f is integrable over $A \cup B$, then $\overset{A \cup B}{f}$ is integrable over D. And because A,B have volume, also $\chi_A$ and $\chi_B$ are. So because ($\overset{A}{f} = \overset{A \cap B}{f} \cdot \chi_A$) we conclude that $\overset{A}{f}$ is integrable over D as a product of two integrable funcs, and by definition that means f is integrable over A. And the same goes for B.
 
+>Prop (3.31):
+>	If A is a set of volume, and $f:\overline{A}\to\mathbb{R}$ bounded, then f is integrable over A iff over $\overline{A}$ iff $A^\circ$ and in that case $$\int_{A} f = \int_{\overline{A}} f = \int_{A^\circ} f$$
+>Proof:
+>	[[The volume of sets#^8f9ec4|We know]] that $\overline{A}$ and $A^\circ$ are of volume. We need to show that the set of discon points are of zero measure together. Indeed $$D(f \big\vert_{A^\circ}) \subseteq D(f\big\vert_A) \subseteq D(f)$$ And also $\overline{A} \setminus A^\circ = \partial A$ is a set of measure zero (because we are told that A is of volume). So even if every point in $\partial A$ is a discontinouity point of f, if $D(f\big\vert_{A^\circ})$ was of zero measure, then also $D(f)$ would be because $D(f) \subseteq D(f\big\vert_{A^\circ}) \cup \partial A$ which is a union of sets of measure zero which is also of measure zero.
+>	Lastly we need to show the equality. We will notice that $A^\circ \subseteq A \subseteq \overline{A}$ and that $A \setminus A^\circ \subseteq \partial A \wedge \overline{A} \setminus A \subseteq \partial A$. And use the lemma
+
+>Lemma:
+>	Let C,D sets of volume, $D \subseteq C$ s.t. $C \setminus D$ is contained in a compact set of measure zero. $f:C\to\mathbb{R}^k$ integrable on $C,D$ then $\int_C f = \int_D f$
+>Proof:
+>	We can notice that for all x in C $f(x) = f\big\vert_{C \cap D} (x) + f\big\vert_{C \setminus D} (x)$. And since $f\big\vert_{C \setminus D}$ is 0 out of J, we will get by a previos lemma () that it is integrable with integral 0. And since $D \subseteq C$ we get that $C \cap D = D$ and so $f\big\vert_{C \cap D} = f\big\vert_D$ and we get that $\int_C f = \int_C f\big\vert_{C \cap D} + \int_C f\big\vert_{C \setminus D} = \int_C f\big\vert_{C \cap D}$ (I don't know how to cont.)
