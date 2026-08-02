@@ -150,3 +150,13 @@ We will now use [[#^1bf9ea]] to show the well-definedness of [[#^c87fa4|the volu
 >Proof:
 >	Write $S = \bigcup\limits_{i=1}^\infty S_i$ for compact S_i's. Then the graph of f over S is the union of the graphs of the $f\big\vert_{S_i}$ over S_i. And a countable union  of measure zero is of measure zero
 
+^e52fca
+
+>Note: In particular, from [[#^e52fca]] we get that for $S = \mathbb{R}^k$ as $\mathbb{R}^k = \bigcup\limits_{U \in \mathcal{U}} U$ for $\mathcal{U} = \left\{ \bigtimes\limits_{i=1}^k [n_i, n_i + 1] \mid \forall i \in [k]: n_i \in \mathbb{Z} \right\}$. All the balls of radious 1 in the suprimum norm centered to fit the grid.
+
+>Lemma (3.28):
+>	Let A be a set of measure zero. $T \in End(\mathbb{R}^k)$ and $b \in \mathbb{R}^k$ then the set $T(A) + b = \left\{ T(a) + b \mid a \in A \right\}$ is of measure zero.
+>Proof:
+>	It is immediate from the fact (that is shown in the exercise) that an image of a lipschitz map over a set of measure zero is also of measure zero
+
+>We can use the last lemma to show that a set is of measure zero when it can be written as a finite union of sets, each is a graph of some cont func on a compact set, maybe rotated around the axes
