@@ -92,6 +92,8 @@ Note: Those are well defined becaue $L\left(f,P\right) \leq U\left(f, K\right)$ 
 >Def (3.6) (Riemann integrability):
 >	[[#^0449b3|Such function]] $f$ is called "riemann integrable on $A$" when $$\underline{\int}_A f(x)dx = \overline{\int}_A f(x)dx$$
 
+^8930a7
+
 >	In that case we will call that value "The integral of $f$ over $A$". And denote it $\int_A f(x)dx$ Or $\int_A f(x_1, \dots, x_k)dx_1dx_2\cdots dx_k$.
 
 >Corollary (3.7):
@@ -138,6 +140,8 @@ We will now consider under what conditions a function is integrable.
 
 >Def (3.12) (A set of measure zero):
 >	Can be covered with a countable collection of boxes with arbitrary small volume together
+
+^a327cd
 
 >Lemma (3.13):
 >	A countable union of sets of measure zero is of measure zero.
@@ -196,7 +200,7 @@ We will now consider under what conditions a function is integrable.
 >Proof:
 >	df
 
->Theorem (3.17) (Lebesgue-Vitali):
+>Theorem (3.17) ([[Lebesgue-Vitali]]):
 >	f is integrable over A iff the set of discontinuity (of f in A or the func was on A to begin with) is of measure zero.
 >The proof will come later.
 

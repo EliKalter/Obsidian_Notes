@@ -36,7 +36,7 @@ Similar to [[Integration over boxes#^5ddb9a]]
 >	Let S subset A subset R^k of volume s.t. S closed and A open. then there exists for all natural i $S_i \subseteq S \subseteq S'_i \subseteq A$ s.t. both S_i and S'_i are a union of finitely many boxes with disjoint anterior, and for every func $f:A\to\mathbb{R}$ integrable $$\int_S f = \underset{i\to\infty}{lim} \int_{S_i} f = \underset{i\to\infty}{lim} \int_{S'_i} f$$
 >	>As a direct result we get that $$V(S) = \underset{i\to\infty}{lim} V(S_i) = \underset{i\to\infty}{lim} V(S'_i)$$
 >Proof:
->	Maybe later
+>	Maybe later Flag for avi
 
 >Theorem (3.33) (fubini):
 >	>(1 The proposition): Let $A \subset \mathbb{R}^k$ and $B \subset \mathbb{R}^m$ be closed boxes. $f:A\times B\to \mathbb{R}$ integrable. Then the integrals $$\int_B \left( \underline{\int}_A f(x,y) dx \right) dy \quad \text{and} \quad \int_B \left( \overline{\int}_A f(x,y) dx \right) dy$$ exist, and we have the equality $$\int_{A\times B} f(x,y) dxdy = \int_B \left( \underline{\int}_A f(x,y) dx \right) = \int_B \left( \overline{\int}_A f(x,y) dx \right) dy$$
@@ -67,7 +67,36 @@ Similar to [[Integration over boxes#^5ddb9a]]
 
 >Example (Of  the use of fubini):
 >	Calculating the area of a disk
+>	Flag for avi
 
 >Example (Of  the use of fubini):
 >	Calculating the area of a body of revolution
+
+>Corollary:
+>	Kinda intuitive, only for $k = 2,3$. We go about proving the 3 case using the 2 case...? And what is the proof for the 2 case? We need to convert everything to the language of fubini, so we box it all (we can as g, h are cont over a compact set and thus get max and min). And on that box, f_x(y) is integrable, becaues it is cont in where it defined, so we get that we can split the dims by fubini, and the int over the inner dim is the same as the integral on the D area ([g0(x),g1(x)]) (We need to explain the change from $\int_{[a,b]} f(x)dx = \int_a^b f(x) dx$, and why we can change to the smaller box in one dim, and ignore the bigger one.)
+
+>Now we maybe have the tools to calc the volume of the unit ball
+>Flag for avi
+
+The folowing proposition will be very similar to how we defined the area of a set that is traped between the axes and the graph of a cont non neg func
+It will now make that old definition make much more sense.
+
+>Prop (3.36):
+>	Let S in R^k be a set of volume, and $f:\overline{S}\to [0,\infty) \subset \mathbb{R}$.
+>	Denote $A_{f,S} = \left\{ (x,y) \in \mathbb{R}^{k+1 }\mid x \in S \wedge y \in [0,f(x)] \right\}$
+>	Then $V(A_{f,S}) = \int_S f(x)dx$
+>Proof:
+>	First, the set $A_{f,S}$ has volume [[The volume of sets#^724338|from here]].
+>	Let $B$ be a box that contains $S$.
+>	And let $M := \underset{x \in S}{max} \: f(x)$ (It exists because f is cont over a closed bounded set in a normed space which is compact)
+>	So we have $B \times [0,M]$ covers $A_{f,S}$
+>	Now $$V(A_{f,S}) \overset{def}{=} \int_{B \times [0,M]} \chi_{A_{f,S}}(x,y) dxdy \overset{\text{fubini (*1)}}{=} $$
+>	$$= \int_B \left( \int_{[0,M]} \chi_{A_{f,S}}(x,y)dy \right) dx \overset{def}{=} \int_B \left( \int_0^M \chi_{A_{f,S}}(x,y)dy \right) dx \overset{(*2)}{=} $$
+>	$$= \int_B \widetilde{f}(x) dx \overset{def}{=} \int_S f(x) dx$$
+>	>(*1*): Because $S$ has volume, the indicator func is integrable. And it is clearly then also integrable when we fix some of the coordinates (Because of lebesgue vitali).
+>	
+>	>(*2*): We want to show that for fixed $x \in B$ $$\int_0^M \chi_{A_{f,S}} (x,y) dy = \widetilde{f} (x)$$
+>	>Where $\widetilde{f}$ is the extension func of $f$ to $B$ that is defined to be 0 where f is not defined.
+>	>We notice that $\chi_{A_{f,S}} (x,y) = \chi_{S}(x) \cdot \chi_{[0,f(x)]} (y)$. Now for $x_0 \not\in S$ we get $\int_0^M \chi_{A_{f,S}} (x_0,y) dy = 0 = \widetilde{f} (x_0)$. And for $x_0 \in S$ we get $$\int_0^M \chi_{A_{f,S}} (x,y) dy = \int_0^M \chi_{[0,f(x_0)]} (y) dy =$$
+>	>$$= \int_0^{f(x_0)} dy = f(x_0)  = \widetilde{f}(x_0)$$
 
