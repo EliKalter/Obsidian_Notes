@@ -31,3 +31,43 @@ Similar to [[Integration over boxes#^5ddb9a]]
 >	Let C,D sets of volume, $D \subseteq C$ s.t. $C \setminus D$ is contained in a compact set of measure zero. $f:C\to\mathbb{R}^k$ integrable on $C,D$ then $\int_C f = \int_D f$
 >Proof:
 >	We can notice that for all x in C $f(x) = f\big\vert_{C \cap D} (x) + f\big\vert_{C \setminus D} (x)$. And since $f\big\vert_{C \setminus D}$ is 0 out of J, we will get by a previos lemma () that it is integrable with integral 0. And since $D \subseteq C$ we get that $C \cap D = D$ and so $f\big\vert_{C \cap D} = f\big\vert_D$ and we get that $\int_C f = \int_C f\big\vert_{C \cap D} + \int_C f\big\vert_{C \setminus D} = \int_C f\big\vert_{C \cap D}$ (I don't know how to cont.)
+
+>Prop (3.32):
+>	Let S subset A subset R^k of volume s.t. S closed and A open. then there exists for all natural i $S_i \subseteq S \subseteq S'_i \subseteq A$ s.t. both S_i and S'_i are a union of finitely many boxes with disjoint anterior, and for every func $f:A\to\mathbb{R}$ integrable $$\int_S f = \underset{i\to\infty}{lim} \int_{S_i} f = \underset{i\to\infty}{lim} \int_{S'_i} f$$
+>	>As a direct result we get that $$V(S) = \underset{i\to\infty}{lim} V(S_i) = \underset{i\to\infty}{lim} V(S'_i)$$
+>Proof:
+>	Maybe later
+
+>Theorem (3.33) (fubini):
+>	>(1 The proposition): Let $A \subset \mathbb{R}^k$ and $B \subset \mathbb{R}^m$ be closed boxes. $f:A\times B\to \mathbb{R}$ integrable. Then the integrals $$\int_B \left( \underline{\int}_A f(x,y) dx \right) dy \quad \text{and} \quad \int_B \left( \overline{\int}_A f(x,y) dx \right) dy$$ exist, and we have the equality $$\int_{A\times B} f(x,y) dxdy = \int_B \left( \underline{\int}_A f(x,y) dx \right) = \int_B \left( \overline{\int}_A f(x,y) dx \right) dy$$
+>	
+>	>(2 Comments):
+>	>	>(a): Obviously the rolls of x and y can be interchanged
+>	>	
+>	>	>(b): The simbol $dxdy$ does not have any meaning except for representing that we integrate over both x and y. Most importantly, in this context $dydx$ and $dxdy$ mean the exact same thing. Sometimes when it can get confusing we might use a different notation and say it clearly (such as $dV$)
+>	>	
+>	
+>	>(3 Proof):
+>	>	In the records and with more elaboration in the ipad. Need to complete. It is not a small one to say the least. Can be shown only for one of them ($\int_B \left( \underline{\int}_A f(x,y) dx \right) dy$ for example i.e. the H func), the other one is just the same.
+>	>	The core of it all is to understand why $L(f,P) \leq L(H, P_B)$, everything else is fairly simple.
+>	>	We split P into P_A and P_B. We notice that iterating over P can be broken into a double sum.
+>	>	We use the fact that $inf f(x) + inf g(x) \leq inf (f(x)+g(x))$ with the $\lambda_i(y) = V(A_i)\cdot \underset{x \in A_i}{f(x,y)}$ and get the main ineqaulity. The rest kinda fals into place.
+
+^5d070f
+
+>Corollary (3.34):
+>	>Prop: If in the last theorem, if for every $y \in B$ $G(y) = H(y)$ meaning that $f_y$ is integrable over B, i.e. $\int_A f_y(x) dx = \int_A f(x,y) dx$ exists, then $\int_{A\times B} f(x,y)dxdy = \int_B\left( \int_A f(x,y)dx \right)dy$.
+>	
+>	>Note: The same goes for the other way arround, so if for every $x \in A$ the integral $\int_B f_x(y) dy$ exists, then $\int_{A\times B} f(x,y)dxdy = \int_A\left( \int_B f(x,y)dy \right)dx$
+>	
+>	>Result: In case for all $x,y \in A \times B$ we have ...
+
+>Note:
+>	[[#^5d070f|In fubinis theorem]], there is no assumption that for all $y \in B$ $\overline{\int}_A f(x,y) dx = \underline{\int}_A f(x,y) dx$.
+
+>Example (Of  the use of fubini):
+>	Calculating the area of a disk
+
+>Example (Of  the use of fubini):
+>	Calculating the area of a body of revolution
+
