@@ -4,6 +4,8 @@
 >	Denote $D(f)$ the set of discontinuity points of $f$. $D(f) := \left\{ a \in A \mid f \text{ is not continuous at }a \right\}$
 >	Then $f$ is [[Integration over boxes#^8930a7|riemann integrable]] over $A$ (a.k.a. $\int_A f(x)dx$ exists) $\iff$ $D(f)$ is [[Integration over boxes#^a327cd|a set of measure zero]].
 
+^b93f08
+
 In order to prove it, we will need to do some work first to better understand $D(f)$.
 
 >Def (The diameter of a set in a metric space):
@@ -45,7 +47,32 @@ In order to prove it, we will need to do some work first to better understand $D
 >	If $x \in D(f)$, then $\omega_f(x) > 0$ then $x \in F_{\frac{\omega_f(x)}{2}}$. and because we can find $n \in \mathbb{N}$ s.t. $\frac{1}{n}  \leq \frac{\omega_f(x)}{2}$ we will get that $x \in F_{1/n}$ (Note that the func $\varepsilon \mapsto F_\varepsilon$ is monotonic, i.e. $\varepsilon_1 \leq \varepsilon_2 \implies F_{\varepsilon_1} \supseteq F_{\varepsilon_2}$)
 >	And the other way is also trivial. Skipping
 
+^88bf44
+
 >Lemma (3.54):
->	In the [[#^763fd9|same context]] let $\varepsilon > 0$, Then $F_\varepsilon \subseteq \mathbb{X}$ is a closed set.
+>	In the [[#^763fd9|same context]] let $\varepsilon > 0$, Then $F_\varepsilon \subseteq \mathbb{X}$ ise a closed st.
 >Proof:
+>	We need to take a series in $F_\varepsilon$ that converges in $\mathbb{X}$ and show taht the  limit is in $F_\varepsilon$.
+>	Let $\left(x_n\right)_{n = 1}^\infty \in F_\varepsilon^\mathbb{N}$ and $x \in \mathbb{X}$ s.t. $x_n \overset{d}{\rightarrow} x$.
+>	Denote $d_n = d(x_n, x)$.
+>	Since $x_n \in F_\varepsilon$, we have that $diam(f(B_{d_n}(x_n))) \geq \varepsilon$.
+>	And since $B_{d_n}(x_n) \subseteq B_{2d_n}(x)$ (Because $d(y,x_n) < d_n \implies d(y,x) \leq d(y,x_n) + d(x_n,x) = d(y,x_n) + d_n < d_n + d_n = 2d_n \implies y \in B_{2d_n}(x)$), we get that $diam(f(B_{2d_n}(x))) \geq diam(f(B_{d_n}(x_n))) \geq \varepsilon$.
+>	Now, since $d_n \overset{n\to\infty}{\longrightarrow} 0$ we get that $2d_n \overset{n\to\infty}{\longrightarrow} 0$, So by "היינה" we get that $\omega_f(x) \geq \varepsilon$, meaning $x \in F_\varepsilon$ $\blacksquare$
+
+>Theorem (3.55) (Equiv formulation of the lebesgue-vitali theorem):
+>	>In the same setting as [[Lebesgue-Vitali#^b93f08|the original formulation]], $f$ is integrable $\iff$ $\forall n \in \mathbb{N}: F_{\frac{1}{n}} \text{ is of measure zero}$
 >	
+>	>Note: The equivalance is because of ([[#^88bf44]], [[Integration over boxes#^aa5125]]).
+>	
+>	>[[#^9aa31c|The proof]]
+
+^96b479
+
+
+>Proof of [[#^96b479|the equiv formulation of Lebesgue-Vitali]]:
+>	>**$\text{measure zero} \implies \text{integrability}$**:
+>	>	dfd
+>	
+>	>**$\text{integrability} \implies \text{measure zero}$**:
+>	>	dfdf
+^9aa31c
