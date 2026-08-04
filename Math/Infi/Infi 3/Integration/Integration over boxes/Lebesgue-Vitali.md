@@ -70,7 +70,7 @@ In order to prove it, we will need to do some work first to better understand $D
 
 
 >Proof of [[#^96b479|the equiv formulation of Lebesgue-Vitali]]:
->Skippint typing for now. Takes time...
+>Skippint typing for now. Takes time...K
 >	>**$\text{measure zero} \implies \text{integrability}$**:
 >	>	dfd
 >	
