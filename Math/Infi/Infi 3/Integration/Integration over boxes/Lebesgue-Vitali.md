@@ -46,9 +46,7 @@ In order to prove it, we will need to do some work first to better understand $D
 >Proof:
 >	If $x \in D(f)$, then $\omega_f(x) > 0$ then $x \in F_{\frac{\omega_f(x)}{2}}$. and because we can find $n \in \mathbb{N}$ s.t. $\frac{1}{n}  \leq \frac{\omega_f(x)}{2}$ we will get that $x \in F_{1/n}$ (Note that the func $\varepsilon \mapsto F_\varepsilon$ is monotonic, i.e. $\varepsilon_1 \leq \varepsilon_2 \implies F_{\varepsilon_1} \supseteq F_{\varepsilon_2}$)
 >	And the other way is also trivial. Skipping
-
-^88bf44
-
+ 
 >Lemma (3.54):
 >	In the [[#^763fd9|same context]] let $\varepsilon > 0$, Then $F_\varepsilon \subseteq \mathbb{X}$ ise a closed st.
 >Proof:
