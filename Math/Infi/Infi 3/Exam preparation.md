@@ -7,4 +7,4 @@
 2) Integration
 	1) Some things I marked
 	2) Fobini
-	3) Change of var 
+	3) Change of var
