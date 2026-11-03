@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Infi/Infi 3/Integration/over general sets of finite volume/The volume of sets.md",
+                "file": "CDCC/Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The volume of sets"
+              "title": "Index"
             }
           }
         ]
@@ -74,12 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 227.500732421875
+    "width": 361.5004348754883
   },
   "right": {
     "id": "e3b38444926bb510",
@@ -186,6 +185,23 @@
   },
   "active": "0cef06848b726ec9",
   "lastOpenFiles": [
+    "CDCC/Cubic graphs.md",
+    "CDCC/The degree of a node in a graph.md",
+    "CDCC/Applying a function to a subset of its domain.md",
+    "CDCC/A planar graph.md",
+    "CDCC/Index.md",
+    "CDCC/Questions for nati.md",
+    "CDCC/The cycle double cover theorem (Standard form).md",
+    "CDCC/An arc.md",
+    "CDCC/A cycle in a graph.md",
+    "CDCC/Free of bridges graph.md",
+    "CDCC/A simple cycle in a graph.md",
+    "CDCC/A walk in a graph.md",
+    "CDCC/A trail in a graph.md",
+    "CDCC/A path in a graph.md",
+    "CDCC/Bridge in graph.md",
+    "Infi/Infi 3/Integration/over general sets of finite volume/The volume of sets.md",
+    "CDCC",
     "Infi/Infi 3/Integration/over general sets of finite volume/Change of variables.md",
     "Infi/Infi 3/Exam preparation.md",
     "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/חבורות נילפוטנטיות וסדרות מרכזיות.md",
@@ -199,28 +215,11 @@
     "Infi/Infi 3/Integration/Integration.md",
     "Infi/Infi 3/Inverse function",
     "Infi/Infi 3/Inverse function/Lagrange multipliers",
-    "Infi/Infi 3/Integration/over general sets of finite volume/The volume of sets.md",
     "Infi/Infi 3/Integration/Integration over boxes",
-    "Infi/Infi 3/Integration/Improper integrals.md",
-    "Infi/Infi 3/Integration/over general sets of finite volume/Integration over general sets of finite volume.md",
-    "Infi/Infi 2/Change of variables.md",
     "Infi/Infi 2",
-    "The volume of sets^.md",
     "Infi/Infi 3/Integration/over general sets of finite volume",
-    "^.md",
-    "^a2e56b.md",
-    "Alg Struct/Group Theory/המבנה של אבליות נוצרות סופית/חבורות אבליות נוצרות סופית.md",
     "Infi/Infi 3/Integration",
     "Infi/Infi 3",
-    "Infi",
-    "Alg Struct/Group Theory/המבנה של אבליות נוצרות סופית/חבורות אבליות חופשיות.md",
-    "Alg Struct/Group Theory/המבנה של אבליות נוצרות סופית/המבנה של אבליות נוצרות סופית.md",
-    "Alg Struct/Group Theory/המבנה של אבליות נוצרות סופית",
-    "Alg Struct/Group Theory/פרקים בקורס.md",
-    "^68a2f7.md",
-    "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/חבורות פתירות.md",
-    "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/סדרות נורמליות וסדרות הרכב.md",
-    "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/סדרות הרכב.md",
-    "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/משפט ז'ורדן הולדר.md"
+    "Infi"
   ]
 }
