@@ -14,3 +14,5 @@ The Idea of using [[Cubic graphs]]
 The simple proof for [[A planar graph|planar graphs]]
 
 Why the simple proof does not work for non planar graphs
+
+[[For me]]
