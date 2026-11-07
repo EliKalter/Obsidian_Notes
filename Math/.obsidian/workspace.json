@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CDCC/Formulations of the theorem/Not surfaces/Equivalency of CDCC for graphs vs cubic-graphs.md",
+                "file": "CDCC/Cover with Eulerian sub-graph iff Cover with cycles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Equivalency of CDCC for graphs vs cubic-graphs"
+              "title": "Cover with Eulerian sub-graph iff Cover with cycles"
             }
           }
         ]
@@ -185,41 +185,41 @@
   },
   "active": "44c8102b5addfcc3",
   "lastOpenFiles": [
-    "CDCC/Formulations of the theorem/Not surfaces/Equivalency of CDCC for graphs vs multi-graphs.md",
+    "CDCC/Walks in graph/A path in a graph.md",
+    "CDCC/Cover with Eulerian sub-graph iff Cover with cycles.md",
+    "CDCC/Types of graphs/Eulerian sub-graph.md",
+    "CDCC/Types of graphs/Sub-graph.md",
+    "CDCC/Types of graphs/Graph.md",
+    "CDCC/Types of graphs/Graph",
+    "CDCC/Types of graphs",
+    "CDCC/Walks in graph/Eulerian/Eulerian circuite (or cycle).md",
+    "CDCC/Walks in graph/Eulerian/Eulerian walk.md",
+    "CDCC/Walks in graph/Eulerian",
+    "CDCC/Walks in graph/A simple cycle in a graph.md",
+    "CDCC/Walks in graph/A trail in a graph.md",
     "CDCC/Formulations of the theorem/Not surfaces/Equivalency of CDCC for graphs vs cubic-graphs.md",
+    "CDCC/Walks in graph",
+    "CDCC/Formulations of the theorem/Not surfaces/Equivalency of CDCC for graphs vs multi-graphs.md",
     "CDCC/Formulations of the theorem/Not surfaces/Cubic graphs.md",
     "CDCC/Formulations of the theorem/Not surfaces/Graphs.md",
-    "CDCC/Multi graph.md",
+    "CDCC/Types of graphs/Multi graph.md",
     "CDCC/Formulations of the theorem/Not surfaces/Multi graphs.md",
-    "CDCC/Free of bridges graph.md",
+    "CDCC/Types of graphs/Free of bridges graph.md",
     "CDCC/Formulations of the theorem/Not surfaces",
-    "CDCC/A simple cycle in a graph.md",
-    "CDCC/Cubic graphs.md",
+    "CDCC/Types of graphs/Cubic graphs.md",
     "CDCC/Index.md",
     "CDCC/Formulations of the theorem",
-    "CDCC/A planar graph.md",
+    "CDCC/Types of graphs/A planar graph.md",
     "CDCC/Bridge in graph.md",
     "CDCC/Questions for nati.md",
     "CDCC/For me.md",
-    "CDCC/A closed walk in a graph.md",
+    "CDCC/Walks in graph/A closed walk in a graph.md",
     "CDCC/The degree of a node in a graph.md",
     "CDCC/Applying a function to a subset of its domain.md",
     "CDCC/An arc.md",
-    "CDCC/A walk in a graph.md",
-    "CDCC/A trail in a graph.md",
-    "CDCC/A path in a graph.md",
-    "Infi/Infi 3/Integration/over general sets of finite volume/The volume of sets.md",
     "CDCC",
-    "Infi/Infi 3/Integration/over general sets of finite volume/Change of variables.md",
-    "Infi/Infi 3/Exam preparation.md",
-    "Alg Struct/Group Theory/סדרות נורמליות וסדרות הרכב/חבורות נילפוטנטיות וסדרות מרכזיות.md",
-    "Infi/Infi 3/Integration/over general sets of finite volume/Integration on sets of voulme.md",
     "Infi/Infi 3/Integration/Fobini",
     "Infi/Infi 3/Inverse function",
-    "Infi/Infi 3/Inverse function/Lagrange multipliers",
-    "Infi/Infi 3/Integration/Integration over boxes",
-    "Infi/Infi 2",
-    "Infi/Infi 3/Integration/over general sets of finite volume",
-    "Infi/Infi 3/Integration"
+    "Infi/Infi 3/Inverse function/Lagrange multipliers"
   ]
 }

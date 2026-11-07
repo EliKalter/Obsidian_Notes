@@ -9,7 +9,7 @@ The equivalent formulation
 
 The proof of equivalency
 
-The Idea of using [[CDCC/Cubic graphs]]
+The Idea of using [[CDCC/Types of graphs/Cubic graphs]]
 
 The simple proof for [[A planar graph|planar graphs]]
 
