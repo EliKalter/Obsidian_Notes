@@ -1,15 +1,15 @@
 Here I will work on the cycle double cover conjecture (Now theorem) as presented to me by Nati Linial, and with his guidance.
 
 
-The [[The cycle double cover theorem (Standard form)|cycle double cover theorem]]
+The [[Graphs|cycle double cover theorem]]
 
-The proof (By?)
+The proof (By?) youtube video
 
 The equivalent formulation
 
 The proof of equivalency
 
-The Idea of using [[Cubic graphs]]
+The Idea of using [[CDCC/Cubic graphs]]
 
 The simple proof for [[A planar graph|planar graphs]]
 
