@@ -15,4 +15,8 @@
 >	>	Let $G' = (V', E')$ a sub-graph of $G$ with $E' = S$.
 >	>	Let $l$ be the number of [[connected components]] (TODO: Define) in $G'$.
 >	>	Assume we have $\{C_{I_j}\}_{j = 1}^l$ collections of cycles s.t. $C_{I_j}$ covers every edge in the $j$'th connected component of $G'$ exactly once. Then $I := \bigcup\limits_{j=1}^l I_j$, and $C_I := {C_i}_{i \in I}$ is a cover of $S$ that covers each edge exactly once. So all we need to show it that we can find a cover with cycles for one connected component.
->	>	Assume $G'$ is connected. Now $G'$ being a connected eulerian graph, [[means that there is an eulerian circuit]] (TODO: Prove that eulerian circuit iff connected and even degree) in $G'$. Let $v = (v_i)_{i=1}^n$ be such a circuit. 
+>	>	Assume $G'$ is connected. Now $G'$ being a connected eulerian graph, [[means that there is an eulerian circuit]] (TODO: Prove that eulerian circuit iff connected and even degree) in $G'$. Let $v = (v_i)_{i=1}^n$ be such a circuit. By [[The lemma]] , it can broken down into cycles that cover it. 
+
+>Lemma:
+>	Any such circuit can be broken down into cycles such that the edges covered are the same edges.
+>	Will show in induction on $n$. Because if $n = 2$ we are done. And for general $n$, if for all other nodes $v_j$ for $j = 2,...,n-1$ $v_j$ appears only once, than we are done. Other wise, there is some other $j$. Take the first and second times j appears. Between them there is one clean cycle. The circuit with that cycle removed is also such a circuit, by the i.h. it can be broken down into cycles. And the union of that split, with that cycle from j is what we need.
